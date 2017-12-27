@@ -1,0 +1,31 @@
+[
+
+    {
+        "name" : "empresa_01.jpg", "caption" : "Fachada principal de la nave industrial situada en la calle Crom"
+    },
+    {
+        "name" : "empresa_02.jpg", "caption" : "Interior de la nave con superficie de 500m2"
+    },
+    {
+        "name" : "empresa_03.jpg", "caption" : "Bancos de trabajo individuales para cada operario"
+    },
+    {
+        "name" : "empresa_04.jpg", "caption" : "Puente grua de hasta 4 toneladas"
+    },
+    {
+        "name" : "empresa_05.jpg", "caption" : "Disponemos de un cuadro para la realización de todo tipo de pruebas"
+    },
+    {
+        "name" : "empresa_06.jpg", "caption" : "Máquina de equilibrado dinámico hasta 1500kg"
+    },
+    {
+        "name" : "empresa_07.jpg", "caption" : "Horno con las funciones de secado de gran precisión y pirolisis (demoledor)"
+    },
+    {
+        "name" : "empresa_08.jpg", "caption" : "Máquina de limpieza por arenado"
+    },
+    {
+        "name" : "empresa_09.jpg", "caption" : "Tornos para la reparación de piezas"
+    }
+
+]

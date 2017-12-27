@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Electromecánica Crom</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<header class="row col-lg-12">
+    <div class="container">
+
+        <div class="row">
+            <div class="logo col-lg-4 box-no-left-padding">
+                <a href="index.html"> <img src="img/logo.png"> </a>
+            </div>
+            <nav class="menu col-lg-8 pull-right box-no-right-padding">
+                <!--<div class="">-->
+                <ul>
+                    <li class="parent"><a href="empresa.html">EMPRESA</a> </li>
+                    <li class="parent"><a href="serveis.html">SERVICIOS</a>
+                        <ul class="options">
+                            <li class="child"> <a href="serveis.html#bobinatge">BOBINAJE DE MOTORES ELÉCTRICOS</a> </li>
+                            <li class="child"> <a href="serveis.html#reparacio">REPARACIÓN DE BOMBAS</a> </li>
+                            <li class="child"> <a href="serveis.html#manteniment">MANTENIMIENTO</a> </li>
+                            <li class="child"> <a href="serveis.html#instalacions">INSTALACIONES INDUSTRIALES</a> </li>
+                            <li class="child"> <a href="serveis.html#quadres">CUADROS ELÉCTRICOS</a> </li>
+                        </ul>
+                        <!-- </a>-->
+                    </li>
+                    <li class="parent"><a class="selected-menu" href="contacte.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row pull-right">
+            <p style="color:orange"></p>Esp</b> <a href="#">Cat</a>
+        </div>
+
+    </div>
+</header>
+<div class="row col-lg-12">
+    <div class="container">
+        <div class="row box-separator">
+            <div class="col-lg-6 box-no-left-padding">
+                <div class="box-head">
+                    <h2>CONTACTO</h2>
+                </div>
+                <div class="box-body">
+                    <dl class="dl-horizontal">
+                        <dt>Dirección</dt>
+                        <dd>Calle Crom, 91 <br>08907 Hospitalet de Llobregat<br>
+                            (Barcelona)</dd>
+                        <br>
+                        <dt>Teléfono</dt>
+                        <dd>93 263 08 81</dd>
+                        <br>
+                        <dt>Móbiles</dt>
+                        <dd>Àngel López: 667 59 22 79 (Rep. maquinaria eléctrica)</dd>
+                        <dd>Iban Cobos: 676 13 75 02 (Rep. maquinaria eléctrica)</dd>
+                        <dd>Gabriel Pineda: 678 43 55 10 (Instalaciones eléctricas)</dd>
+                        <br>
+                        <dt>Horario<br>de atención</dt>
+                        <dd>DE LUNES A VIERNES<br>
+                            MAÑANA: 08:00 A 14:00<br>
+                            TARDE: 15:00 A 18:00<br>
+                            <br>
+                        </dd>
+                    </dl>
+                </div>
+           </div>
+            <div class="col-lg-6 box-no-right-padding">
+                <div class="box-head">
+                    <h2>CONTACTA CON NOSOTROS</h2>
+                </div>
+                <div class="box-body">
+                    <form class="form-horizontal" method="post" action="http://localhost:8080/MailSender/newIssue" accept-charset="ISO-8859-1">
+                        <div class="form-group">
+                            <label  class="control-label col-md-4" for="first_name">Nombre</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="first_name" name="name" placeholder="Nombre"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4" for="last_name">Apellidos</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="last_name" name="surname" placeholder="Apellidos"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4" for="email">Correo electrónico</label>
+                            <div class="col-md-6 input-group">
+                                <span class="input-group-addon">@</span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4" for="last_name">Tipo de consulta</label>
+                            <div class="col-md-6">
+                                <select class="form-control" name="issueType">
+                                    <option value="undefined" selected>Sin determinar</option>
+                                    <option value="budget">Presupuesto</option>
+                                    <option value="services">Consulta Servicios</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4" for="comments">Consulta</label>
+                            <div class="col-md-6">
+                                <textarea rows="6" class="form-control" id="comments" name="content" placeholder="Escriba aquí su consulta"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <button type="submit" value="Submit" class="btn btn-custom pull-right">Envia</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row col-lg-12">
+    <div class="container">
+            <div id="map_canvas">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="row col-lg-12">
+        <div class="container">
+            <div class="contact col-lg-2 box-no-left-padding">
+                <img class="logo" src="img/logo_footer.png">
+            </div>
+            <div class="mapaweb col-lg-4">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Empresa</a></li>
+                    <li><a href="serveis.html">Servicios</a></li>
+                    <li><a href="contacte_.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="avisLegal col-lg-4">
+                <a href=""> © Aviso legal / Política de privacidad / Aviso de confidencialidad </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0wLN6qdThioRwSBsQbS_sVxWfoZMdWjw&sensor=false">
+</script>
+<script type="text/javascript">
+
+    function initialize() {
+
+            var mapOptions = {
+            center: new google.maps.LatLng(41.3502219,2.100104099999953),
+            zoom: 16,
+            disableDefaultUI: true
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+                mapOptions);
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(41.3502219,2.100104099999953),
+            map: map,
+            title:"Electromecànica Crom",
+            icon: 'img/logo.png'
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+    $("form").submit(function(e){
+        console.log("entra a la funcio de submit");
+        e.preventDefault();
+        if(checkValidIssue()){
+            $.post( "http://localhost:8080/MailSender/newIssue", $( "form" ).serialize(), function(status, data){
+                console.log("status: "+status);
+                console.log("data" +data);
+            });
+        }
+    });
+
+    function checkValidIssue(){
+        console.log($("#first_name").val());
+        console.log($("#last_name").val());
+        console.log($("#email").val() );
+        console.log($("#comments").val());
+        if (
+           ($("#first_name").val() == null  || $("#first_name").val() == '')  ||
+           ($("#last_name").val()  == null  || $("#last_name").val() == '')  ||
+           ($("#email").val()      == null  || $("#email").val() == '') ||
+           ($("#comments").val()   == null  || $("#comments").val() == '') )
+        {
+           alert("Atención, debes rellenar todos los campos para enviar la solicitud");
+           return false;
+        }
+        return true;
+    }
+</script>
+
+</html>

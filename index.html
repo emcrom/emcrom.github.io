@@ -36,7 +36,8 @@
             </div>
 
             <div class="row pull-right">
-                <p style="color: orange">Esp <b><a href="index_cat.html">| Cat</a></b></p>
+                    <p><b style="color:orange">Esp</b> <a href="index_cat.html">Cat</a></p>
+
             </div>
 
         </div>
@@ -54,6 +55,13 @@
         <div class="container">
             <div class="row box-separator">
                 <div class="col-lg-6 box-no-left-padding">
+                        <!--<div class="box-head">
+                            <h2>EMPRESA Y INSTALACIONES</h2>
+                        </div>
+                        <div class="box-body">
+                            <p>ELECTROMECÁNICA CROM, SL es la consolidación de un proyecto empresarial que aglutina mas de 25 años de experiencia en el sector de la reparación de maquinaria eléctrica. La empresa ha sido creada bajo los principios de profesionalidad, agilidad y calidad, principios que se van rubricando en cada trabajo realizado.</p>
+                            <img src="img/empresa_ra.jpg">
+                        </div>-->
                     <img src="img/empresa_ra.jpg">
 
                 </div>
@@ -76,7 +84,7 @@
         </div>
     </div>
 
-    <footer class="row col-lg-12" style="margin-top:1%">
+    <footer class="row col-lg-12" style="margin-top:1%;padding-bottom: 1%;">
         <div class="container">
             <div class="contact col-lg-2 box-no-left-padding">
                 <img class="logo" src="img/logo_footer.png">
@@ -84,9 +92,9 @@
             <div class="mapaweb col-lg-4">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Empresa</a></li>
+                    <li><a href="empresa.html">Empresa</a></li>
                     <li><a href="serveis.html">Servicios</a></li>
-                    <li><a href="contacte_.html">Contacto</a></li>
+                    <li><a href="contacte.html">Contacto</a></li>
                 </ul>
             </div>
             <div class="avisLegal col-lg-4">
@@ -97,11 +105,21 @@
 
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/jquery.queryloader2.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 <script src="scripts/utils.js"></script>
 <script type="application/javascript">
+    loadGalleryFromJSON("index");
     $(document).ready(function(){
-        loadGalleryFromJSON("index");
+        $("body").queryLoader2(
+        {
+            barColor: "#FF8125",
+            backgroundColor: "#ffffff",
+            percentage: false,
+            barHeight: 2,
+            completeAnimation: "fade",
+            minimumTime: 10000
+        });
     });
 </script>
 </html>

@@ -35,7 +35,7 @@
             </nav>
         </div>
         <div class="row pull-right">
-            <p style="color: orange">Esp <b><a href="contacte_cat.html">| Cat</a></b></p>
+            <p><b style="color:orange">Esp</b> <a href="contacte_cat.html">Cat</a></p>
         </div>
 
     </div>
@@ -75,7 +75,7 @@
                     <h2>CONTACTA CON NOSOTROS</h2>
                 </div>
                 <div class="box-body">
-                    <form class="form-horizontal" method="post" action="http://localhost:8080/MailSender/newIssue" accept-charset="ISO-8859-1">
+                    <form class="form-horizontal" method="post" action="http://emcrom.es/MailSender/newIssue" accept-charset="ISO-8859-1">
                         <div class="form-group">
                             <label  class="control-label col-md-4" for="first_name">Nombre</label>
                             <div class="col-md-6">
@@ -132,7 +132,7 @@
     </div>
 </div>
 
-    <footer class="row col-lg-12">
+    <footer class="row col-lg-12" style="padding-bottom: 1%;">
         <div class="container">
             <div class="contact col-lg-2 box-no-left-padding">
                 <img class="logo" src="img/logo_footer.png">
@@ -140,9 +140,9 @@
             <div class="mapaweb col-lg-4">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Empresa</a></li>
+                    <li><a href="empresa.html">Empresa</a></li>
                     <li><a href="serveis.html">Servicios</a></li>
-                    <li><a href="contacte_.html">Contacto</a></li>
+                    <li><a href="contacte.html">Contacto</a></li>
                 </ul>
             </div>
             <div class="avisLegal col-lg-4">
@@ -171,7 +171,7 @@
             position: new google.maps.LatLng(41.3502219,2.100104099999953),
             map: map,
             title:"Electromecànica Crom",
-            icon: 'img/logo.png'
+            icon: 'img/favicon.png'
         });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -180,7 +180,7 @@
         console.log("entra a la funcio de submit");
         e.preventDefault();
         if(checkValidIssue()){
-            $.post( "http://localhost:8080/MailSender/newIssue", $( "form" ).serialize(), function(status, data){
+            $.post( "http://emcrom.es/MailSender/newIssue", $( "form" ).serialize(), function(status, data){
                 console.log("status: "+status);
                 console.log("data" +data);
             });

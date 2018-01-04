@@ -9,155 +9,145 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-<header class="row col-lg-12">
-    <div class="container">
-        <div class="row">
-            <div class="logo col-lg-4 box-no-left-padding">
-                <a href="index_cat.html"> <img src="img/logo.png"> </a>
-            </div>
-            <nav class="menu col-lg-8 pull-right box-no-right-padding">
-                <ul>
-                    <li class="parent"><a href="empresa_cat.html">EMPRESA</a></li>
-                    <li class="parent"><a href="serveis_cat.html" class="selected-menu">SERVEIS</a></li>
-                    <li class="parent"><a href="contacte_cat.html">CONTACTE</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row pull-right">
-            <p style="color: orange"><b><a href="serveis.html">Esp |</a>  Cat</b></p>
-        </div>
-    </div>
-</header>
-<div class="row col-lg-12">
-    <div class="container">
-        <div class="row box-separator">
-            <div class="col-lg-6 box-no-left-padding">
-                <div class="box-body box-no-top-padding">
-                    <div id="carousel-index" class="container carousel slide col-lg-12" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol id="button-appender" class="carousel-indicators"></ol>
-                        <!-- Slider Content (Wrapper for slides )-->
-                        <div id="img-appender" class="carousel-inner"></div>
-                    </div>
+    <header class="row col-lg-12">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-lg-4 box-no-left-padding">
+                    <a href="index_cat.html"> <img src="img/logo.png"> </a>
                 </div>
-            </div>
-            <div class="col-lg-6 box-no-right-padding">
-                <a href="serveis_cat.html">
-                    <div class="box-head">
-                        <h2>SERVEIS</h2>
-                    </div>
-                </a>
-                <div class="box-body">
-                    <div id="accordion-parent">
+                <nav class="menu col-lg-8 pull-right box-no-right-padding">
                         <ul>
-                            <li>
-                                <a href="#" class="selector" data-toggle="collapse" data-target="#bobinatge"
-                                   data-parent="#accordion-parent">
-                                    <h3>BOBINATGE DE MOTORS ELÈCTRICS</h3>
-                                </a>
-                                <div id="bobinatge" class="collapse in subsection">
-                                    <p>Reparació de qualsevol tipus de maquinària elèctrica al nostre taller o a la
-                                        planta o fàbrica del client.</p>
-                                    <ul>
-                                        <li>Motors corrent alterna</li>
-                                        <li>Motors corrient continua</li>
-                                        <li>Motors velocitat variable</li>
-                                        <li>Motors de "carretilla" i tracció</li>
-                                        <li>Motorreductors</li>
-                                        <li>Servomotors</li>
-                                        <li>Alternadors i dinamos tacomètriques</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#" class="selector" data-toggle="collapse" data-target="#reparacio"
-                                   data-parent="#accordion-parent">
-                                    <h3>REPARACIÓ DE BOMBES</h3>
-                                </a>
-                                <div id="reparacio" class="collapse subsection">
-                                    <p>Reparació de tot tipus de bombes a planta o fábrica i al nostre taller.</p>
-                                    <ul>
-                                        <li>Bombes industrials</li>
-                                        <li>Bombes hidràuliques</li>
-                                        <li>Bombes de pressió</li>
-                                        <li>Bombes fecals</li>
-                                        <li>Grups contra-incendis</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#" class="selector" data-toggle="collapse" data-target="#manteniment"
-                                   data-parent="#accordion-parent">
-                                    <h3>MANTENIMENT</h3>
-                                </a>
-
-                                <div id="manteniment" class="collapse subsection">
-                                    <p>Realitzem controls in-situ amb el pertinent informe(Manteniment Predictiu) i en
-                                        cas d'averia
-                                        realitzem la intervenció sobre el motor al nostre taller o a la fàbrica
-                                        (Manteniment
-                                        Preventiu).</p>
-                                    <ul>
-                                        <li><b>Manteniment Predicti</b></li>
-                                        <li class="subchild">Medició de temperatura (Termografia)</li>
-                                        <li class="subchild">Estat de los rodaments</li>
-                                        <li class="subchild">Estat de las escobillas</li>
-                                        <li class="subchild">Estat del colector</li>
-                                        <li class="subchild">Vibracions</li>
-                                    </ul>
-                                    <ul>
-                                        <li><b>Manteniment Preventiu</b></li>
-                                        <li class="subchild">Anàlisi d'informe predictiu</li>
-                                        <li class="subchild">Efectuar proves d'entrada</li>
-                                        <li class="subchild">Comprobar debanats</li>
-                                        <li class="subchild">Desmontat peça a peça</li>
-                                        <li class="subchild">Rectificat i ranurat del col·lector</li>
-                                        <li class="subchild">Envernissat i secat a estufa</li>
-                                        <li class="subchild">Equilibrat dinàmic</li>
-                                        <li class="subchild">Canvi de rodaments</li>
-                                        <li class="subchild">Canvi de escobetes</li>
-                                        <li class="subchild">Montatge</li>
-                                        <li class="subchild">Verificació i proves</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#" class="selector" data-toggle="collapse" data-target="#quadres"
-                                   data-parent="#accordion-parent">
-                                    <h3>QUADRES ELÈCTRICS</h3>
-                                </a>
-
-                                <div id="quadres" class="collapse subsection">
-                                    <p>Construcció de quadres elèctrics convencionals.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#" class="selector" data-toggle="collapse" data-target="#instalacions"
-                                   data-parent="#accordion-parent">
-                                    <h3>INSTALACIONS INDUSTRIALS</h3>
-                                </a>
-
-                                <div id="instalacions" class="subsection collapse">
-                                    <p>Projectes i realització d'instalacions elèctriques de baixa tensió.</p>
-                                </div>
-                            </li>
+                            <li class="parent"><a href="empresa_cat.html">EMPRESA</a></li>
+                            <li class="parent"><a href="serveis_cat.html" class="selected-menu">SERVEIS</a></li>
+                            <li class="parent"><a href="contacte_cat.html">CONTACTE</a></li>
                         </ul>
+                </nav>
+            </div>
+            <div class="row pull-right">
+                <p><a href="serveis.html">Esp</a> <b style="color:orange">Cat</b></p>
+            </div>
+        </div>
+    </header>
+    <div class="row col-lg-12">
+        <div class="container">
+            <div class="row box-separator">
+                <div class="col-lg-6 box-no-left-padding">
+                    <div class="box-body box-no-top-padding">
+                        <div id="carousel-index" class="container carousel slide col-lg-12" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol id="button-appender" class="carousel-indicators"></ol>
+                            <!-- Slider Content (Wrapper for slides )-->
+                            <div id="img-appender" class="carousel-inner"></div>
+                        </div>
                     </div>
+                </div>
+                <div class="col-lg-6 box-no-right-padding">
+                    <a href="serveis.html"> <div class="box-head">
+                        <h2>SERVEIS</h2>
+                    </div> </a>
+                    <div class="box-body">
+                        <div id="accordion-parent">
+                            <ul>
+                                <li>
+                                    <a href="#" class="selector" data-toggle="collapse" data-target="#bobinatge" data-parent="#accordion-parent">
+                                        <h3>BOBINATGE DE MOTORS ELÈCTRICS</h3>
+                                    </a>
+                                    <div id="bobinatge" class="collapse in subsection">
+                                        <p>Reparació de qualsevol tipus de maquinària elèctrica al nostre taller o a la planta o fàbrica del client.</p>
+                                        <ul>
+                                            <li>Motors corrent alterna</li>
+                                            <li>Motors corrient continua</li>
+                                            <li>Motors velocitat variable</li>
+                                            <li>Motors de "carretilla" i tracció</li>
+                                            <li>Motorreductors</li>
+                                            <li>Servomotors</li>
+                                            <li>Alternadors i dinamos tacomètriques</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="selector" data-toggle="collapse" data-target="#reparacio" data-parent="#accordion-parent">
+                                        <h3>REPARACIÓ DE BOMBES</h3>
+                                    </a>
+                                    <div id="reparacio" class="collapse subsection">
+                                        <p>Reparació de tot tipus de bombes a planta o fábrica i al nostre taller.</p>
+                                        <ul>
+                                            <li>Bombes industrials</li>
+                                            <li>Bombes hidràuliques</li>
+                                            <li>Bombes de pressió</li>
+                                            <li>Bombes fecals</li>
+                                            <li>Grups contra-incendis</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="selector" data-toggle="collapse" data-target="#manteniment" data-parent="#accordion-parent">
+                                        <h3>MANTENIMENT</h3>
+                                    </a>
 
+                                    <div id="manteniment" class="collapse subsection" >
+                                        <p>Realitzem controls in-situ amb el pertinent informe(Manteniment Predictiu) i en cas d'averia
+                                            realitzem la intervenció sobre el motor al nostre taller o a la fàbrica (Manteniment
+                                            Preventiu).</p>
+                                        <ul>
+                                            <li><b>Manteniment Predicti</b></li>
+                                            <li class="subchild">Medició de temperatura (Termografia)</li>
+                                            <li class="subchild">Estat de los rodaments</li>
+                                            <li class="subchild">Estat de las escobillas</li>
+                                            <li class="subchild">Estat del colector</li>
+                                            <li class="subchild">Vibracions</li>
+                                        </ul>
+                                        <ul>
+                                            <li><b>Manteniment Preventiu</b></li>
+                                            <li class="subchild">Anàlisi d'informe predictiu</li>
+                                            <li class="subchild">Efectuar proves d'entrada</li>
+                                            <li class="subchild">Comprobar debanats</li>
+                                            <li class="subchild">Desmontat peça a peça</li>
+                                            <li class="subchild">Rectificat i ranurat del col·lector</li>
+                                            <li class="subchild">Envernissat i secat a estufa</li>
+                                            <li class="subchild">Equilibrat dinàmic</li>
+                                            <li class="subchild">Canvi de rodaments</li>
+                                            <li class="subchild">Canvi de escobetes</li>
+                                            <li class="subchild">Montatge</li>
+                                            <li class="subchild">Verificació i proves</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="selector" data-toggle="collapse" data-target="#quadres" data-parent="#accordion-parent">
+                                        <h3>QUADRES ELÈCTRICS</h3>
+                                    </a>
+
+                                    <div id="quadres" class="collapse subsection">
+                                        <p>Construcció de quadres elèctrics convencionals.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="selector" data-toggle="collapse" data-target="#instalacions" data-parent="#accordion-parent">
+                                        <h3>INSTALACIONS INDUSTRIALS</h3>
+                                    </a>
+
+                                    <div id="instalacions" class="subsection collapse">
+                                        <p>Projectes i realització d'instalacions elèctriques de baixa tensió.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <div class="row">
 
     <div class="container col-lg-12 col-lg-offset-1">
         <div class="box col-lg-5">
 
         </div>
-    </div>
 </div>
-<footer class="row col-lg-12">
+</div>
+<footer class="row col-lg-12" style="margin-top:1%;padding-bottom: 1%;">
     <div class="container">
         <div class="contact col-lg-2 box-no-left-padding">
             <img class="logo" src="img/logo_footer.png">
@@ -165,7 +155,7 @@
         <div class="mapaweb col-lg-4">
             <ul>
                 <li><a href="index_cat.html">Home</a></li>
-                <li><a href="">Empresa</a></li>
+                <li><a href="empresa_cat.html">Empresa</a></li>
                 <li><a href="serveis_cat.html">Serveis</a></li>
                 <li><a href="contacte_cat.html">Contacte</a></li>
             </ul>
@@ -180,32 +170,32 @@
 <script src="scripts/utils.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 <script>
-    $(document).ready(function (e) {
-        var galleryType = document.URL.split('#', 2)[1];
+    $(document).ready(function(e){
+        var galleryType = document.URL.split('#',2)[1];
         if (galleryType == '' || galleryType == null)
             galleryType = 'bobinatge';
 
         loadGalleryByUrl(galleryType);
 
-        $(".selector").bind('click', function (e) {
-            var nextGallery = $(e.target).parent().attr("data-target").split("#")[1];
-            $("#" + $(".in").attr("id")).collapse("hide");
-            loadGalleryByUrl(nextGallery);
+        $(".selector").bind('click', function(e){
+           var nextGallery = $(e.target).parent().attr("data-target").split("#")[1];
+           $("#"+$(".in").attr("id")).collapse("hide");
+           loadGalleryByUrl(nextGallery);
         });
     });
 
-    function loadGalleryByUrl(galleryName) {
+    function loadGalleryByUrl(galleryName){
         var currentGallery = $(".in").attr("id");
-        console.log("currentGallery: " + currentGallery);
-        if (currentGallery != galleryName) {
+        console.log("currentGallery: "+currentGallery);
+        if (currentGallery != galleryName){
             commandGalleryById(currentGallery, 'hide');
             commandGalleryById(galleryName, 'show');
         }
-        console.log("intentant carregar: " + galleryName);
-        loadGalleryFromJSON(galleryName);
+        console.log("intentant carregar: "+galleryName);
+        loadGalleryFromJSON(galleryName+"_cat");
     }
-    function commandGalleryById(id, command) {
-        $("#" + id).collapse(command);
+    function commandGalleryById(id, command){
+        $("#"+id).collapse(command);
     }
 
 </script>

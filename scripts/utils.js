@@ -22,7 +22,7 @@
 
                 $("#img-appender").append(
                     '<div class="item active">'+
-                        '<img src="img/'+jsonName+'/'+element.name+'">'+
+                        '<img src="img/'+jsonName.split("_cat")[0]+'/'+element.name+'">'+
                         '<div class="carousel-caption carousel-caption-style text-center">'+
                         '<p>'+element.caption+'</p>'+
                         '</div>'+
@@ -35,7 +35,7 @@
 
                 $("#img-appender").append(
                     '<div class="item">'+
-                        '<img src="img/'+jsonName+'/'+element.name+'">'+
+                        '<img src="img/'+jsonName.split("_cat")[0]+'/'+element.name+'">'+
                         '<div class="carousel-caption carousel-caption-style text-center">'+
                         '<p>'+element.caption+'</p>'+
                         '</div>'+

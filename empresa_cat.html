@@ -16,15 +16,16 @@
                 <a href="index_cat.html"> <img src="img/logo.png"> </a>
             </div>
             <nav class="menu col-lg-8 pull-right box-no-right-padding">
+                <!--<div class="">-->
                 <ul>
                     <li class="parent"><a class="selected-menu" href="empresa_cat.html">EMPRESA</a> </li>
                     <li class="parent"><a href="serveis_cat.html">SERVEIS</a>
                         <ul class="options">
-                            <li class="child"> <a href="#">BOBINATGE DE MOTORS ELÈCTRICS</a> </li>
-                            <li class="child"> <a href="#">REPARACIÓ DE BOMBES</a> </li>
-                            <li class="child"> <a href="#">MANTENIMENT</a> </li>
-                            <li class="child"> <a href="#">INSTALACIONS INDUSTRIALS</a> </li>
-                            <li class="child"> <a href="#">QUADRES ELÈCTRICS</a> </li>
+                            <li class="child"> <a href="serveis_cat.html#bobinatge">BOBINATGE DE MOTORS ELÈCTRICS</a> </li>
+                            <li class="child"> <a href="serveis_cat.html#reparacio">REPARACIÓ DE BOMBES</a> </li>
+                            <li class="child"> <a href="serveis_cat.html#manteniment">MANTENIMENT</a> </li>
+                            <li class="child"> <a href="serveis_cat.html#instalacions">INSTALACIONS INDUSTRIALS</a> </li>
+                            <li class="child"> <a href="serveis_cat.html#quadres">QUADRES ELÈCTRICS</a> </li>
                         </ul>
                         <!-- </a>-->
                     </li>
@@ -33,7 +34,7 @@
             </nav>
         </div>
         <div class="row pull-right">
-            <p style="color: orange"><b><a href="empresa.html">Esp |</a>  Cat</b></p>
+            <p><a href="empresa.html">Esp</a> <b style="color:orange">Cat</b></p>
         </div>
     </div>
 </header>
@@ -101,16 +102,7 @@
     </div>
 </div>
 
-<div class="row col-lg-12">
-    <div class="container">
-            <div id="map_canvas">
-
-            </div>
-        </div>
-    </div>
-</div>
-
-    <footer class="row col-lg-12">
+    <footer class="row col-lg-12" style="margin-top:1%;padding-bottom: 1%;">
         <div class="container">
             <div class="contact col-lg-2 box-no-left-padding">
                 <img class="logo" src="img/logo_footer.png">
@@ -118,7 +110,7 @@
             <div class="mapaweb col-lg-4">
                 <ul>
                     <li><a href="index_cat.html">Home</a></li>
-                    <li><a href="">Empresa</a></li>
+                    <li><a href="empresa_cat.html">Empresa</a></li>
                     <li><a href="serveis_cat.html">Serveis</a></li>
                     <li><a href="contacte_cat.html">Contacte</a></li>
                 </ul>
@@ -134,7 +126,7 @@
 <script src="scripts/utils.js"></script>
 <script type="application/javascript">
     $(document).ready(function(){
-        loadGalleryFromJSON("empresa");
+        loadGalleryFromJSON("empresa_cat");
     });
 </script>
 
